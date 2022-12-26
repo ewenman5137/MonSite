@@ -1,0 +1,11 @@
+#page{
+    display: grid;
+    grid-template-columns: auto 5vw 5vw auto ;
+    grid-template-rows: 5vw 90vh 5vh ;
+    background-color: black;
+}
+#case{
+    display: grid;
+    grid-area: 2/2;
+    background-color: blue;
+}

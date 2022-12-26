@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GRID</title>
+</head>
+<style type="text/css">
+    /*code css ici*/
+    #page
+    {
+        display: grid;
+        grid-template-columns: auto 60vh auto ;
+        grid-template-rows: 20vh 60vh 20vh;
+    }
+#grille{
+    display: grid;
+    grid-area: 2/2;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    background-color: lightblue;
+    
+    }
+.case:hover
+{
+    background-color: darkblue;
+    font-size: 70px;
+}
+.case
+{
+    font-size: 70px;
+    text-align: center;
+}
+</style>
+<body>
+    <!-- le code html ici-->
+    <div id="page">
+        <div id="grille">
+            <div id="0" class="case" onclick="play(this)"></div>
+            <div id="1" class="case" onclick="play(this)"></div>
+            <div id="2" class="case" onclick="play(this)"></div>
+            <div id="3" class="case" onclick="play(this)"></div>
+            <div id="4" class="case" onclick="play(this)"></div>
+            <div id="5" class="case" onclick="play(this)"></div>
+            <div id="6" class="case" onclick="play(this)"></div>
+            <div id="7" class="case" onclick="play(this)"></div>
+            <div id="8" class="case" onclick="play(this)"></div>
+        </div>
+    </div>
+<script type="text/javascript">
+    //javascript
+    currentValue = 0;
+    values  =[0,0,0,0,0,0,0,0,0];
+    function play(div)
+    {
+        console.log(div);
+        if(values[div.id]==0){
+            
+        if (currentValue ==0)
+        {
+            div.innerHTML ="X";
+            values[div.id] = 1;
+        }
+        else{
+            div.innerHTML = "O";
+            values[div.id] = 2;
+        }
+        currentValue = (currentValue+1)%2;
+    }}
+
+</script>
+</body>
+</html>
+
+
+
