@@ -1,8 +1,11 @@
+body{
+    background-color: darkblue;
+}
+
 #page{
     display: grid;
     grid-template-columns: auto 5vw 5vw auto ;
     grid-template-rows: 5vw 90vh 5vh ;
-    background-color: black;
 }
 #case{
     display: grid;
