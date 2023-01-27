@@ -1,5 +1,20 @@
-body{
-    background-color: darkblue;
+#page{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 60vh 20vh;
+    background-color: white;
+    color: black;
+}
+#header{
+    display: grid;
+    grid-template-columns: 3vw 5vw 3vw 5vw 3vw 5vw auto 10vw 5vw 3vw;
+    #background-color: #081B30;
     color: white;
 }
-
+#titre{
+    display: grid;
+    grid-area: 1/7;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
