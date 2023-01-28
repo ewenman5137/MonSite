@@ -1,20 +1,73 @@
 #page{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto 60vh 20vh;
+    grid-template-rows: 120px 60vh 20vh;
     background-color: white;
     color: black;
 }
 #header{
     display: grid;
-    grid-template-columns: 3vw 5vw 3vw 5vw 3vw 5vw auto 10vw 5vw 3vw;
-    #background-color: #081B30;
+    grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 10vw 3vw 5vw 3vw;
+    background-color: #081B30;
     color: white;
 }
 #titre{
     display: grid;
-    grid-area: 1/7;
-    color: black;
+    grid-area: 1/8;
+    color: white;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
+    margin: auto;
+}
+#bouton_competence{
+    display: grid;
+    grid-area: 1/2;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+#bouton_projets{
+    display: grid;
+    grid-area: 1/4;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}#bouton_reseaux{
+     display: grid;
+     grid-area: 1/6;
+     font-size: 25px;
+     text-align: center;
+     margin: auto;
+ }
+
+.bouton:hover{
+    color: #86BBD8;
+}
+#centre_page{
+    display: grid;
+    grid-template-columns: 3vw 45vw 15vw auto 3vw;
+    background-color: grey;
+}
+#centre_page_haut{
+    display: grid;
+    grid-area: 1/2;
+    grid-template-rows: 10vh 20vh 10vh 10vh auto;
+    background-color: grey;
+}
+#titre_centre_page{
+    display: grid;
+    grid-area: 2/1;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+#description_centre_page{
+    display: grid;
+    grid-area: 4/1;
+    font-size: 20px;
+    color: white;
 }
