@@ -1,13 +1,13 @@
 #page{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 120px 60vh 20vh;
+    grid-template-rows: 120px 600px 400px;
     background-color: white;
     color: black;
 }
 #header{
     display: grid;
-    grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 10vw 3vw 5vw 3vw;
+    grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 20vw 3vw 5vw 3vw;
     background-color: #081B30;
     color: white;
 }
@@ -24,18 +24,18 @@
     grid-area: 1/2;
     text-align: center;
     margin: auto;
-    font-size: 25px;
+    font-size: 15px;
 }
 #bouton_projets{
     display: grid;
     grid-area: 1/4;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     margin: auto;
 }#bouton_reseaux{
      display: grid;
      grid-area: 1/6;
-     font-size: 25px;
+     font-size: 15px;
      text-align: center;
      margin: auto;
  }
@@ -58,10 +58,8 @@
     display: grid;
     grid-area: 2/1;
     font-size: 30px;
-    text-decoration: underline;
     color: white;
-    margin: 0 auto;
-    text-align: left;
+    text-align: right;
 
 }
 
@@ -70,4 +68,28 @@
     grid-area: 4/1;
     font-size: 20px;
     color: white;
+}
+
+@media (min-width: 768px) {
+    #bouton_competence {
+        font-size: 11px;
+    }
+    #bouton_projets{
+        font-size: 11px;
+    }
+    #bouton_reseaux{
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 992px) {
+    #bouton_competence {
+        font-size: 13px;
+    }
+    #bouton_projets{
+        font-size: 13px;
+    }
+    #bouton_reseaux{
+        font-size: 13px;
+    }
 }
