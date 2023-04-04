@@ -1,3 +1,9 @@
+
+html, body, #page {
+    margin: 0;
+    padding: 0;
+}
+
 #page{
     display: grid;
     grid-template-columns: auto;
@@ -10,6 +16,7 @@
     grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 20vw 3vw 5vw 3vw;
     background-color: #081B30;
     color: white;
+    width: 100%;
 }
 #titre{
     display: grid;
