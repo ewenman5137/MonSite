@@ -6,12 +6,12 @@ html, body, #page {
 
 #page{
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 120px 600px 400px;
+    grid-template-rows: auto auto auto auto;
     background-color: white;
     color: black;
 }
 #header{
+    position:fixed;
     display: grid;
     grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 20vw 3vw 5vw 3vw;
     background-color: #081B30;
@@ -52,13 +52,15 @@ html, body, #page {
 }
 #centre_page{
     display: grid;
-    grid-template-columns: 3vw 45vw 15vw auto 3vw;
+    grid-area: 2/1;
+    grid-template-rows: 300px;
+    grid-template-columns: 45vh auto;
     background-color: grey;
 }
 #centre_page_haut{
     display: grid;
     grid-area: 1/2;
-    grid-template-rows: 10vh 20vh 10vh 10vh auto;
+    grid-template-rows: auto;
     background-color: grey;
 }
 #titre_centre_page{
@@ -70,33 +72,61 @@ html, body, #page {
 
 }
 
+
+
 #description_centre_page{
     display: grid;
     grid-area: 4/1;
     font-size: 20px;
     color: white;
+    background-color: grey;
+}
+#footer{
+    display: grid;
+    grid-template-columns: 25vh auto 5vh auto 5vh auto 25vh;
+    grid-template-rows: 10vh auto 10vh;
+    grid-area: 4/1;
+    color: white;
+    background-color: #081B30;
+}
+#Politique\ de\ confidencialiter{
+    display: grid;
+    grid-area: 2/2;
+    text-align: center;
+    justify-content: end;
+    font-size: 30px;
+}
+#Me\ contacter\ {
+    display: grid;
+    grid-area: 2/6;
+    place-items: center;
+    text-align: center;
+    justify-content: start;
+    font-size: 30px;
+}
+#Ligne\ copyright{
+    display: grid;
+    grid-area: 3/4;
+    place-items: center;
+}
+#Mes\ Compétences\ parent{
+    display: grid;
+    grid-area: 3/1;
+    grid-template-rows: 40px auto 10px auto 40px;
+    background-color: white;
+    color: black;
+}
+#Texte\ Mes\ Compétences{
+    display: grid;
+    place-items: center;
+}
+#Experience\ conteneur{
+    display: grid;
+    grid-template-rows: 10px auto;
+}
+#text\ Experience{
+    display:grid;
+    grid-area: 2/1;
 }
 
-@media (min-width: 768px) {
-    #bouton_competence {
-        font-size: 11px;
-    }
-    #bouton_projets{
-        font-size: 11px;
-    }
-    #bouton_reseaux{
-        font-size: 11px;
-    }
-}
 
-@media (min-width: 992px) {
-    #bouton_competence {
-        font-size: 13px;
-    }
-    #bouton_projets{
-        font-size: 13px;
-    }
-    #bouton_reseaux{
-        font-size: 13px;
-    }
-}
