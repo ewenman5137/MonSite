@@ -1,4 +1,4 @@
-
+ 
 html, body, #page {
     margin: 0;
     padding: 0;
@@ -6,11 +6,13 @@ html, body, #page {
 
 #page{
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     background-color: white;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 #header{
+    font-family: 'Poppins', sans-serif;
     position:fixed;
     display: grid;
     grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 20vw 3vw 5vw 3vw;
@@ -19,6 +21,7 @@ html, body, #page {
     width: 100%;
 }
 #titre{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/8;
     color: white;
@@ -27,6 +30,7 @@ html, body, #page {
     margin: auto;
 }
 #bouton_competence{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/2;
     text-align: center;
@@ -34,12 +38,15 @@ html, body, #page {
     font-size: 15px;
 }
 #bouton_projets{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/4;
     text-align: center;
     font-size: 15px;
     margin: auto;
-}#bouton_reseaux{
+}
+#bouton_reseaux{
+    font-family: 'Poppins', sans-serif;
      display: grid;
      grid-area: 1/6;
      font-size: 15px;
@@ -51,6 +58,7 @@ html, body, #page {
     color: #86BBD8;
 }
 #centre_page{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/1;
     grid-template-rows: 300px;
@@ -58,35 +66,41 @@ html, body, #page {
     background-color: grey;
 }
 #centre_page_haut{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/2;
     grid-template-rows: auto;
     background-color: grey;
 }
 #titre_centre_page{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/1;
     font-size: 30px;
     color: white;
     text-align: right;
+    font-family: 'Poppins', sans-serif;
 
 }
 #description_centre_page{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 4/1;
     font-size: 20px;
     color: white;
-    background-color: black;
+    background-color: grey;
 }
 #footer{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 25vh auto 5vh auto 5vh auto 25vh;
     grid-template-rows: 3vh auto 3vh;
-    grid-area: 4/1;
+    grid-area: 5/1;
     color: white;
     background-color: #081B30;
 }
 #Politique\ de\ confidencialiter{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/2;
     text-align: center;
@@ -94,6 +108,7 @@ html, body, #page {
     font-size: 30px;
 }
 #Me\ contacter\ {
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/6;
     place-items: center;
@@ -102,29 +117,253 @@ html, body, #page {
     font-size: 30px;
 }
 #Ligne\ copyright{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 3/4;
     place-items: center;
 }
 #Mes\ Compétences\ parent{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 3/1;
-    grid-template-rows: 40px auto 10px auto 40px;
     color: black;
+    grid-template-rows: 50px 700px;
+    background-color: black;
+    grid-template-columns: 12.5vw 35vw 5vw 35vw 12.5vw;
 }
 #Texte\ Mes\ Compétences{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
     display: grid;
+    grid-column: 1/6;
     place-items: center;
+    background-color: cyan;
 }
 #Experience\ conteneur{
+    font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-rows: 10px auto;
-    background-color: grey;
-    grid-template-columns: 10vw auto 25vw auto 10vw;
+    grid-area: 2/2;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 5% 90% 5%;
+    background-color: blue;
+    
 }
 #text\ Experience{
+    font-family: 'Poppins', sans-serif;
     display:grid;
+    font-size: 30px;
+    grid-area: 1/1;
+    place-items: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: #081B30;
+    color: white;
+}
+
+
+#emplacement\ experience{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/2;
+    background-color: white;
+    border-radius: 100px;
+    grid-template-rows: 20% 80%;
+}
+#Conteneur\ Logiciel\ Hobbies{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/4;
+    background-color: aquamarine;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 5% 40% 10% 40% 5%;
+}
+#Case\ Experience{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
     grid-area: 2/1;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    grid-template-rows: 5% 40% 10% 40% 5%;
+}
+
+#Usine\ conteneur{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/2;
+    grid-template-rows: 80% 20%;
+}
+#texte\ usine {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    place-items: center;
+
+}
+#image\ usine{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: black;
+}
+
+#Pompier\ conteneur{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/4;
+    grid-template-rows: 80% 20%;
+}
+#texte\ pompier {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    place-items: center;
+
+}
+#image\ pompier{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: black;
+}
+
+#Cours\ de\ soutien{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 4/2;
+    grid-template-rows: 80% 20%;
+}
+#texte\ Cours\ de\ soutien {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    place-items: center;
+
+}
+#image\ Cours\ de\ soutien{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: black;
+}
+
+#Bac\ général{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 4/4;
+    grid-template-rows: 80% 20%;
+}
+#texte\ bac\ général {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    place-items: center;
+
+}
+#image\ bac{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: black;
+}
+
+#Logiciel\ conteneur{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/2;
+    background-color: white;
+    grid-template-rows: 30% 70%;
+    border-radius: 100px;
+}
+
+#Text\ Logiciel{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: #081B30;
+    color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    place-items: center;
+}
+
+#Contient\ les\ logos{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    grid-template-rows: 5% 85% 10%;
+    grid-template-columns: 10% 20% 10% 20% 10% 20% 10%;
+}
+#Logo\ powerpoint{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/2;
+    background-color: black;
+}
+#Logo\ Fusion360{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/4;
+    background-color: black;
+}
+#Logo\ Figma{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/6;
+    background-color: black;
+}
+
+#Hobbies\ conteneur{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 4/2;
+    background-color: white;
+    grid-template-rows: 30% 70%;
+    border-radius: 100px;
+}
+#ContientHobbies{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/1;
+    grid-template-rows: 5% 85% 10%;
+    grid-template-columns: 10% 20% 10% 20% 10% 20% 10%; 
+}
+
+#LogoPompier{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/2;
+    background-color: black;
+}
+#LogoMusique{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/4;
+    background-color: black;
+}
+#LogoRugby{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 2/6;
+    background-color: black;
+}
+#Text\ Hobbies{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    background-color: #081B30;
+    color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    place-items: center;
+}
+
+#Mes_Projets{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 4/1;
+    grid-template-rows: 400px;
+    background-color: orange;
 }
 
 
