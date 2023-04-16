@@ -202,7 +202,8 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/1;
-    background-color: black;
+    place-items: center;
+    
 }
 
 #Pompier\ conteneur{
@@ -216,13 +217,19 @@ html, body, #page {
     display: grid;
     grid-area: 2/1;
     place-items: center;
-
 }
 #image\ pompier{
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/1;
-    background-color: black;
+    place-items: center;
+}
+.Logo{
+    display: grid;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    place-items: center;
 }
 
 #Cours\ de\ soutien{
@@ -242,7 +249,7 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/1;
-    background-color: black;
+    place-items: center;
 }
 
 #Bac\ général{
@@ -262,7 +269,7 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 1/1;
-    background-color: black;
+    place-items: center;
 }
 
 #Logiciel\ conteneur{
