@@ -15,7 +15,8 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     position:fixed;
     display: grid;
-    grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw auto 20vw 3vw 5vw 3vw;
+    grid-area: 1/1;
+    grid-template-columns: 3vw 8vw 3vw 8vw 3vw 8vw 36vw 20vw 3vw 5vw 4vw;
     background-color: #081B30;
     color: white;
     width: 100%;
@@ -61,31 +62,39 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/1;
-    grid-template-rows: 300px;
-    grid-template-columns: 45vh auto;
+    grid-template-rows: 200px 200px 100px 50px;
+    grid-template-columns: 5vw 30vw 30vw 30vw 5vw;
     background-color: grey;
 }
-#centre_page_haut{
-    font-family: 'Poppins', sans-serif;
+#ConteneurPhoto{
     display: grid;
-    grid-area: 1/2;
-    grid-template-rows: auto;
-    background-color: grey;
+    grid-area: 2/4;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+      
 }
+#PhotoPresentation {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #0099cc;
+  }
 #titre_centre_page{
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-area: 2/1;
+    grid-area: 2/3;
     font-size: 30px;
     color: white;
-    text-align: right;
+    text-align:left;
     font-family: 'Poppins', sans-serif;
 
 }
 #description_centre_page{
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-area: 4/1;
+    grid-area: 3/2;
     font-size: 20px;
     color: white;
     background-color: grey;
@@ -127,7 +136,7 @@ html, body, #page {
     display: grid;
     grid-area: 3/1;
     color: black;
-    grid-template-rows: 50px 700px;
+    grid-template-rows: 150px 700px 100px;
     background-color: white;
     grid-template-columns: 12.5vw 35vw 5vw 35vw 12.5vw;
 }
