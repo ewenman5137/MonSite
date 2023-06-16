@@ -385,9 +385,7 @@ html, body, #page {
     font-size: 24px;
     text-align: right;
 }
-#VoirPlusCompetences:hover{
-    color: #86BBD8;
-}
+
 #Mes_Projets{
     font-family: 'Poppins', sans-serif;
     display: grid;
