@@ -391,16 +391,27 @@ html, body, #page {
     display: grid;
     grid-area: 4/1;
     grid-template-rows: 20vh 60vh 20vh;
-    background-color: orange;
+}
+#ConteneurTitreMesProjets{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-area: 1/1;
+    grid-template-rows: 7.5vh 3px 7.5vh;
+    grid-template-columns: 30vw 40vw 30vw;
 }
 #TitreProjets{
     display: grid;
-    grid-area: 1/1;
+    grid-area: 1/2;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
-
+#BarDeSeparationProjets{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 2;
+    background-color: black;
+}
 #ConteneurProjet{
     display: grid;
     grid-area: 2/1;
@@ -453,7 +464,7 @@ html, body, #page {
     display: grid;
     grid-area: 1/6;
     grid-template-rows: 20% 80%;
-    background-color: white;
+    background-color: blue;
     border-radius: 100px;
 }
 #Projet3{
