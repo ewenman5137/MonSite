@@ -106,13 +106,13 @@ a{
 #footer{
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-columns: 25vw auto 5vw auto 5vw auto 25vw;
-    grid-template-rows: 3vh 3vh 50px;
+    grid-template-columns: 15vw 25vw 20vw 25vw 15vw;
+    grid-template-rows: 2vh 3vh 1vh 3vh;
     grid-area: 6/1;
     color: white;
     background-color: #081B30;
 }
-#Politique\ de\ confidencialiter{
+#PolitiqueDeConfidencialiter{
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 2/2;
@@ -120,19 +120,19 @@ a{
     justify-content: end;
     font-size: 30px;
 }
-#Me\ contacter\ {
+#MeContacterFooter{
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-area: 2/6;
+    grid-area: 2/4;
     place-items: center;
     text-align: center;
     justify-content: start;
     font-size: 30px;
 }
-#Ligne\ copyright{
+#LigneCopyright{
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-area: 3/4;
+    grid-area: 3/3;
     place-items: center;
 }
 #Mes\ Compétences\ parent{
@@ -417,6 +417,9 @@ a{
     grid-column: 2/2;
     grid-row: 2;
     background-color: black;
+}
+.Projet{
+    border: 1px solid black;
 }
 #ConteneurProjet{
     display: grid;
