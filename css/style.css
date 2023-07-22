@@ -58,6 +58,9 @@ a{
     color: inherit;
     text-decoration: none;
 }
+#titre:hover{
+    color: #86BBD8;
+}
 .boutoncategorie:hover{
     color: #86BBD8;
 }
