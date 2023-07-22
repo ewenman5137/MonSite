@@ -54,9 +54,15 @@ html, body, #page {
      text-align: center;
      margin: auto;
  }
-
-.bouton:hover{
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.boutoncategorie:hover{
     color: #86BBD8;
+}
+.boutoncategorie{
+    color: black;
 }
 #centre_page{
     font-family: 'Poppins', sans-serif;
@@ -101,7 +107,7 @@ html, body, #page {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 25vw auto 5vw auto 5vw auto 25vw;
-    grid-template-rows: 3vh auto 3vh 50px;
+    grid-template-rows: 3vh 3vh 50px;
     grid-area: 6/1;
     color: white;
     background-color: #081B30;
