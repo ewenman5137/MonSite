@@ -395,6 +395,23 @@ a{
     text-align: right;
 }
 
+#ButtonCV{
+    width: 100px; 
+    height: 50px; 
+    display: grid;
+    grid-area: 4/3;
+    background-color: #081B30;
+    color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 10px;
+}
+#ButtonCV:hover{
+    background-color: #86BBD8;
+    color: black;
+    cursor: pointer;
+}
 #Mes_Projets{
     font-family: 'Poppins', sans-serif;
     display: grid;

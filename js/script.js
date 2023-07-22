@@ -12,3 +12,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+document.getElementById("ButtonCV").addEventListener("click", function() {
+    window.open("/Document/CVEwenBuhot.pdf");
+});
+
+
+
