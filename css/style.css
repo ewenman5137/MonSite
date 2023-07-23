@@ -416,7 +416,7 @@ a{
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 4/1;
-    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-rows: 10vh 40vh 10vh;
 }
 #ConteneurTitreMesProjets{
     font-family: 'Poppins', sans-serif;
@@ -438,70 +438,148 @@ a{
     grid-row: 2;
     background-color: black;
 }
-.Projet{
-    border: 1px solid black;
-}
 #ConteneurProjet{
+    background-color: white;
     display: grid;
-    grid-area: 2/1;
-    grid-template-columns: 5vw 5vw 5vw 20vw 5vw 20vw 5vw 20vw 5vw 5vw 5vw;
+    grid-template-columns: 17.5vw 20vw 2.5vw 20vw 2.5vw 20vw 17.5vw;
 }
-#FlecheD{
-    display: grid;
-    grid-area: 1/2;
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
 }
-#FlecheG{
+#btnNavLeft{
     display: grid;
-    grid-area: 1/10;
-    
+    grid-area: 1/1;
+    align-items: center;
+    justify-content: center;
+}
+#btnNavRight{
+    display: grid;
+    grid-area: 1/7;
 }
 .arrowd{
     width: 5vw;
     height: 5vw;
     margin: auto;
-    transform: rotate(90deg); 
+    transform: rotate(-90deg); 
+    align-items: center;
+    justify-content: center;
 }
 .arrowg{
     width: 5vw;
     height: 5vw;
     margin: auto;
-    transform: rotate(-90deg); 
+    transform: rotate(90deg); 
+}
+.arrowd:hover{
+    cursor: pointer;
+}
+.arrowg:hover{
+    cursor: pointer;
+}
+.carte{
+    height: 500px;
+    width: 350px;
+    perspective: 1000px;
+    margin: auto;
 }
 #Projet1{
     display: grid;
-    grid-area: 1/4;
-    grid-template-rows: 20% 80%;
-    background-color: white;
-    border-radius: 100px;
-}
-.HeaderProjet{
-    display: grid;
-    grid-area: 1/1;
-    background-color: #081B30;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    
-}
-.TitreHeaderProjet{
-    display: grid;
-    color: white;
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
+    grid-area: 1/2;
+    justify-content: center;
+    align-items: center;
 }
 #Projet2{
     display: grid;
-    grid-area: 1/6;
-    grid-template-rows: 20% 80%;
-    background-color: blue;
-    border-radius: 100px;
+    grid-area: 1/4;
+    justify-content: center;
+    align-items: center;
 }
 #Projet3{
     display: grid;
+    grid-area: 1/6;
+    justify-content: center;
+    align-items: center;
+}
+#Projet4{
+    display: grid;
     grid-area: 1/8;
-    grid-template-rows: 20% 80%;
-    background-color: white;
-    border-radius: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.carte-face{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    transition: transform 1s cubic-bezier(0.75, -0.5, 0.3, 1.5);
+}
+
+.face-avant{
+    grid-template-rows: 10% 90%;
+}
+
+.face-arriere{
+    transform: rotateY(180deg);
+    color: white;
+    font-size: 2em;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.carte:hover .face-avant{
+    transform: rotateY(180deg);
+}
+
+.carte:hover .face-arriere{
+    transform: rotateY(360deg);
+}
+
+.header{
+    background-color: #081B30;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.emplacementPhoto{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.emplacementText{
+    color: black;
+    background-color: aliceblue;
+    height: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 #MeContacter{
