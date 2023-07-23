@@ -110,7 +110,7 @@ a{
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 15vw 25vw 20vw 25vw 15vw;
-    grid-template-rows: 2vh 3vh 1vh 3vh;
+    grid-template-rows: 0.5vh 5vh 2vh 3vh;
     grid-area: 6/1;
     color: white;
     background-color: #081B30;
@@ -416,7 +416,7 @@ a{
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-area: 4/1;
-    grid-template-rows: 10vh 40vh 10vh;
+    grid-template-rows: 10vh 40vh 200px;
 }
 #ConteneurTitreMesProjets{
     font-family: 'Poppins', sans-serif;
@@ -580,6 +580,7 @@ a{
     height: 100%;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    font-size: 20px;
 }
 
 #MeContacter{
@@ -639,7 +640,7 @@ a{
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 .LogoContacte{
