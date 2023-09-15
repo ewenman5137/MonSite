@@ -6,6 +6,13 @@ body{
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
 }
+
+/* Pour Chrome, Safari et Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 #header{
   margin-top: -50px;
   position:fixed;
@@ -69,7 +76,7 @@ body{
 #PP {
   height: auto;  
   width: 50%;
-  max-height: 800px;
+  max-height: 600px;
   max-width: 500px;
   border-radius: 100%;
   margin-left: 50px;
