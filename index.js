@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-var carouselleImage = document.querySelector('#carrouselleImage');
 var position = 0;
 
 const projets = [
