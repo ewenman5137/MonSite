@@ -22,6 +22,7 @@ body::-webkit-scrollbar {
   align-items: center;
   height: 50px;
   font-size: 1.2rem;
+  z-index: 9999; /* Ajout de la propriété z-index */
 }
 #titreHeader{
   margin-left: auto;

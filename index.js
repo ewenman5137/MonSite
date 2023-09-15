@@ -2,6 +2,25 @@ document.getElementById("buttonCV").addEventListener("click", function() {
     window.open("/Document/CVEwenBuhot.pdf");
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.btnHeader').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      let targetID = this.getAttribute('href').substring(1); // Enlever le '#' du href
+      let targetElement = document.getElementById(targetID);
+      
+      let offsetPosition = targetElement.offsetTop - 50;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    });
+  });
+});
+
+
 
 var carouselleImage = document.querySelector('#carrouselleImage');
 var position = 0;
