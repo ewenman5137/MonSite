@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     min-width: 480px;
-    background-color: black;
+    background-color: rgb(148,177,186);
     font-family: 'Poppins', sans-serif;
     color: aliceblue; 
 }
