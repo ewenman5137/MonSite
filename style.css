@@ -178,8 +178,8 @@ body::-webkit-scrollbar {
   max-width: 100px;
 }
 #conteneurLogicielsHobbies img{
-  height: 50px;
-  width: auto;
+  height: 70px;
+  width: 70px;
 }
 .titreImage{
   color: black;
