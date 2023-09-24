@@ -177,7 +177,7 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 100px;
 }
-.logoLogiciels{
+#conteneurLogicielsHobbies img{
   height: 50px;
   width: auto;
 }
