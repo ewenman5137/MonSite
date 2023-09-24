@@ -116,13 +116,20 @@ body::-webkit-scrollbar {
 #mesExperiences{
   background-color: #081B30;
   width: 30%;
-  height: 200px;
   margin-left: 50px;
   margin-top: 50px;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#mesExperiences p{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
 }
 #mesLogiciels, #mesHobbies{
   background-color: #081B30;
@@ -132,9 +139,12 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-#mesHobbies{
   width: 100%;
+}
+#mesHobbies,#mesLogiciels p{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
 }
 #conteneurImageTitreCompetences{
   background-color: #D9D9D9;
@@ -144,26 +154,18 @@ body::-webkit-scrollbar {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   width: 100%;
+  height: 80%;
 }
 .conteneurImageTitre{
   background-color: #D9D9D9;
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: end;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   width: 100%;
-  height: 70%;
+  height: 80%;
 }
-.titreMesCompetences{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 30%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 1.75rem;
-}
+
 .imageTitre{
   display: flex;
   flex-direction: column;
