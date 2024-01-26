@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ewen Buhot</title>
@@ -24,7 +24,7 @@
                 <p>J'ai réalisé plusieurs projets, dont une application JavaFX pour créer des séquenciers de pictogrammes et un jeu de morpion. Mes compétences en leadership et ma détermination à résoudre les problèmes font de moi un candidat idéal pour une carrière dans le management d'équipe ou l'enseignement.</p>
                 <p>Je vous invite à découvrir mes projets ci-dessous. N'hésitez pas à me contacter pour toute question. Merci de votre visite!</p>
             </div>
-            <img id="PP" src="/Photo/PhotoDeProfile.jpg" alt="PP">
+            <img id="PP" src="assets/img/Photo/PhotoDeProfile.jpg" alt="PP">
         </div>
     </div>
     <div id="mesCompetences">
@@ -35,19 +35,19 @@
                 <p>Mes experiences</p>
                 <div id="conteneurImageTitreCompetences">
                     <div class="imageTitre">
-                        <img class="Logo" src="/Photo/industrie.png" alt="Image Usine">
+                        <img class="Logo" src="assets/img/Photo/industrie.png" alt="Image Usine">
                         <div class="titreImage">Usine</div>
                     </div>
                     <div class="imageTitre">
-                        <img class="Logo"src="/photo/camionDePompier.png" alt="Camion">
+                        <img class="Logo"src="assets/img/Photo/camionDePompier.png" alt="Camion">
                         <div class="titreImage">Pompier</div>
                     </div>
                     <div class="imageTitre">
-                        <img class="Logo"src="/Photo/cours-de-maths.png" alt="Cour de soutien">
+                        <img class="Logo"src="assets/img/Photo/cours-de-maths.png" alt="Cour de soutien">
                         <div class="titreImage">Cours de soutien</div>
                     </div>
                     <div class="imageTitre">
-                        <img class="Logo"src="/Photo/diplome.png" alt="Camion de pompier">
+                        <img class="Logo"src="assets/img/Photo/diplome.png" alt="Camion de pompier">
                         <div class="titreImage">Bac général</div>
                     </div>
                 </div>
@@ -57,15 +57,15 @@
                     <p>Mes logiciels</p>
                     <div class="conteneurImageTitre">
                         <div class="imageTitre">
-                            <img src="/Photo/powerpoint.png" alt="Logo powerpoint">
+                            <img src="assets/img/Photo/powerpoint.png" alt="Logo powerpoint">
                             <div class="titreImage">powerpoint</div>
                         </div>
                         <div class="imageTitre">
-                            <img src="/photo/fusion360.png" alt="Logo Fusion 360">
+                            <img src="assets/img/Photo/fusion360.png" alt="Logo Fusion 360">
                             <div class="titreImage">Fusion 360</div>
                         </div>
                         <div class="imageTitre">
-                            <img src="/photo/figma.png" alt="Logo Figma">
+                            <img src="assets/img/Photo/figma.png" alt="Logo Figma">
                             <div class="titreImage">Figma</div>
                         </div>
                     </div>
@@ -74,15 +74,15 @@
                     <p>Mes Hobbies</p>
                     <div class="conteneurImageTitre">
                         <div class="imageTitre">
-                            <img src="/Photo/pompier.png" alt="Pompier">
+                            <img src="assets/img/Photo/pompier.png" alt="Pompier">
                             <div class="titreImage">Pompier</div>
                         </div>
                         <div class="imageTitre">
-                            <img src="/Photo/musique.png" alt="Musique">
+                            <img src="assets/img/Photo/musique.png" alt="Musique">
                             <div class="titreImage">Musique</div>
                         </div>
                         <div class="imageTitre">
-                            <img src="/photo/rugby.png" alt="rugby">
+                            <img src="assets/img/Photo/rugby.png" alt="rugby">
                             <div class="titreImage">Rugby</div>
                         </div>
                     </div>
@@ -110,17 +110,17 @@
         <div id="mesReseaux">
             <button class="reseaux">
                 <a href="mailto:ewenbuhot@outlook.fr" target="_blank">
-                    <img class="logoContacte" src="/Photo/Email.png" alt="Email">
+                    <img class="logoContacte" src="assets/img/Photo/Email.png" alt="Email">
                 </a>
             </button>
             <button class="reseaux">
                 <a href="https://github.com/ewenman5137" target="_blank">
-                    <img class="logoContacte" src="/Photo/github.png" alt="Github">
+                    <img class="logoContacte" src="assets/img/Photo/github.png" alt="Github">
                 </a>
             </button>
             <button class="reseaux">
                 <a href="https://www.linkedin.com/in/ewen-buhot-995434251/" target="_blank">
-                    <img class="logoContacte" src="/Photo/linkedin.png" alt="Linkedin">
+                    <img class="logoContacte" src="assets/img/Photo/linkedin.png" alt="Linkedin">
                 </a>
             </button>
         </div>
@@ -132,6 +132,6 @@
         </div>
         <div id="ligneCopyright" >© Copyright 2023. Designer par Ewen</div>
     </div>
-    <script src="index.js"></script>
+    <script src="assets/scripts/index.js"></script>
 </body>
 </html>

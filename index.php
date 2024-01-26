@@ -8,7 +8,7 @@ if(isset($_GET['page'])){
     switch($_GET['page']){
         # Home
         case 'home':
-            require_once 'app/controllers/home.php';
+            require_once 'app/controllers/homepage.php';
             break;
         default:
             header('Location: home');

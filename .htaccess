@@ -1,4 +1,9 @@
 RewriteEngine On
+
+# Base directory of the application
+RewriteBase /MonSite/
+
+# Redirect to index.php if the requested file or directory does not exist
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [QSA,L]
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
