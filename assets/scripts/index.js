@@ -1,5 +1,5 @@
 document.getElementById("buttonCV").addEventListener("click", function() {
-    window.open("/Document/CVEwenBuhot.pdf");
+    window.open("assets/img/Document/CV_Ewen_BUHOT.pdf");
 });
 
 document.addEventListener("DOMContentLoaded", function() {
