@@ -5,21 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ewen Buhot</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="header">
-        <a class="btnHeader" href="#mesCompetences">Mes competences</a>
-        <a class="btnHeader" href="#mesProjets">Mes projets</a>
-        <a id="titreHeader" class="btnHeader" href="#presentation">Ewen Buhot</a>
-    </div>
     <div id="presentation">
-        <div id="titrePresentation">Qui suis-je ?</div>
+        <h1 id="titrePresentation">Qui suis-je ?</h1>
         <div id="imageEtDescription">
             <div id="description">
-                <p>Hello world, je m'appelle Ewen BUHOT et je suis actuellement en deuxième année d'études en informatique à Laval. Passionné par les défis techniques et l'innovation, j'ai maîtrisé plusieurs langages de programmation, dont Python, C, Java, et aussi HTML, CSS, JS, et PHP.</p>
+                <p>Hello world, je m'appelle Ewen BUHOT et je suis actuellement en deuxième année d'études en informatique à Laval. Passionné par les défis techniques et l'innovation, je maîtrise plusieurs langages de programmation, dont Python, C, Java, et aussi HTML, CSS, JS, et PHP.</p>
                 <p>J'ai réalisé plusieurs projets, dont une application JavaFX pour créer des séquenciers de pictogrammes et un jeu de morpion. Mes compétences en leadership et ma détermination à résoudre les problèmes font de moi un candidat idéal pour une carrière dans le management d'équipe ou l'enseignement.</p>
                 <p>Je vous invite à découvrir mes projets ci-dessous. N'hésitez pas à me contacter pour toute question. Merci de votre visite!</p>
             </div>
