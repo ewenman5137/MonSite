@@ -11,8 +11,8 @@
 <body>
     <div id="header">
         <div id='header_gauche'>
-            <a class="btnHeader" href="#mesCompetences">Mes competences</a>
-            <a class="btnHeader" href="#mesProjets">Mes projets</a>
+            <a class="btnHeader" href="#MesCompetences">Mes competences</a>
+            <a class="btnHeader" href="#MesProjets">Mes projets</a>
         </div>
         <a id="titreHeader" class="btnHeader" href="#presentation">Ewen Buhot</a>
     </div>

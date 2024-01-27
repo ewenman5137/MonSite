@@ -1,7 +1,7 @@
 :root{
   --couleurDominante:#081B30;
   --couleurFond:rgb(148,177,186);
-  --couleurEcriture: aliceblue;
+  --couleurEcriture: rgb(56, 56, 56);
   --couleurHover:#86BBD8;
   --couleurNoir:black;
   --couleurBackgroundCompetence:#D9D9D9;
@@ -14,9 +14,13 @@ body::-webkit-scrollbar {
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--couleurFond);
+    background: linear-gradient(to bottom, #e6e9f0, #eef1f5);
     font-family: 'Poppins', sans-serif;
     color: var(--couleurEcriture); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 #presentation {
@@ -26,6 +30,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
   background-image: linear-gradient(292deg, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 20%,rgba(151, 151, 151, 0.03) 20%, rgba(151, 151, 151, 0.03) 40%,rgba(215, 215, 215, 0.03) 40%, rgba(215, 215, 215, 0.03) 60%,rgba(254, 254, 254, 0.03) 60%, rgba(254, 254, 254, 0.03) 80%,rgba(112, 112, 112, 0.03) 80%, rgba(112, 112, 112, 0.03) 100%),linear-gradient(62deg, rgba(34, 34, 34, 0.03) 0%, rgba(34, 34, 34, 0.03) 20%,rgba(171, 171, 171, 0.03) 20%, rgba(171, 171, 171, 0.03) 40%,rgba(206, 206, 206, 0.03) 40%, rgba(206, 206, 206, 0.03) 60%,rgba(210, 210, 210, 0.03) 60%, rgba(210, 210, 210, 0.03) 80%,rgba(69, 69, 69, 0.03) 80%, rgba(69, 69, 69, 0.03) 100%),linear-gradient(314deg, rgba(235, 235, 235, 0.03) 0%, rgba(235, 235, 235, 0.03) 20%,rgba(254, 254, 254, 0.03) 20%, rgba(254, 254, 254, 0.03) 40%,rgba(178, 178, 178, 0.03) 40%, rgba(178, 178, 178, 0.03) 60%,rgba(211, 211, 211, 0.03) 60%, rgba(211, 211, 211, 0.03) 80%,rgba(73, 73, 73, 0.03) 80%, rgba(73, 73, 73, 0.03) 100%),linear-gradient(32deg, rgba(182, 182, 182, 0.01) 0%, rgba(182, 182, 182, 0.01) 12.5%,rgba(208, 208, 208, 0.01) 12.5%, rgba(208, 208, 208, 0.01) 25%,rgba(178, 178, 178, 0.01) 25%, rgba(178, 178, 178, 0.01) 37.5%,rgba(143, 143, 143, 0.01) 37.5%, rgba(143, 143, 143, 0.01) 50%,rgba(211, 211, 211, 0.01) 50%, rgba(211, 211, 211, 0.01) 62.5%,rgba(92, 92, 92, 0.01) 62.5%, rgba(92, 92, 92, 0.01) 75%,rgba(56, 56, 56, 0.01) 75%, rgba(56, 56, 56, 0.01) 87.5%,rgba(253, 253, 253, 0.01) 87.5%, rgba(253, 253, 253, 0.01) 100%),linear-gradient(247deg, rgba(103, 103, 103, 0.02) 0%, rgba(103, 103, 103, 0.02) 12.5%,rgba(240, 240, 240, 0.02) 12.5%, rgba(240, 240, 240, 0.02) 25%,rgba(18, 18, 18, 0.02) 25%, rgba(18, 18, 18, 0.02) 37.5%,rgba(38, 38, 38, 0.02) 37.5%, rgba(38, 38, 38, 0.02) 50%,rgba(246, 246, 246, 0.02) 50%, rgba(246, 246, 246, 0.02) 62.5%,rgba(9, 9, 9, 0.02) 62.5%, rgba(9, 9, 9, 0.02) 75%,rgba(167, 167, 167, 0.02) 75%, rgba(167, 167, 167, 0.02) 87.5%,rgba(86, 86, 86, 0.02) 87.5%, rgba(86, 86, 86, 0.02) 100%),linear-gradient(90deg, hsl(194,0%,10%),hsl(194,0%,10%));
 }
 .barDeSeparation{
@@ -62,306 +67,227 @@ body{
   margin-right: 50px;
 }
 
-#mesCompetences{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 50vh;
-}
-.titreParti{
-  display: flex;
-  font-size: 2.5rem;
-  margin-top: 20px;
-  color: var(--couleurNoir);
-}
-#barMesCompetences{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#conteneurCompetence{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-#conteneurLogicielsHobbies{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  margin-left: 10%;
-  margin-right: 50px;
-}
-#mesExperiences{
-  background-color: var(--couleurDominante);
-  width: 30%;
-  margin-left: 50px;
-  margin-top: 50px;
-  border-radius: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#mesExperiences p{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 1.75rem;
-}
-#mesLogiciels, #mesHobbies{
-  background-color: var(--couleurDominante);
-  height: 200px;
-  margin-top: 50px;
-  border-radius: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-#mesHobbies,#mesLogiciels p{
-  width: 100%;
+#btnAboutMe{
   text-align: center;
+  border: 2px solid var(--couleurEcriture);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--couleurEcriture);
+  padding: 10px 20px 10px 20px;
   font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 2vh;
 }
-#conteneurImageTitreCompetences{
-  background-color: var(--couleurBackgroundCompetence);
+#btnAboutMe:hover{
+  background-color: var(--couleurEcriture);
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+}
+
+/*========================================*/
+/*           Partie Competences           */
+/*========================================*/
+
+
+#MesCompetences{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+}
+#conteneurCompetences{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  width: 100%;
-  height: 80%;
+  margin-top: 2vh;
 }
-.conteneurImageTitre{
-  background-color: var(--couleurBackgroundCompetence);
-  display: flex;
-  justify-content: end;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  width: 100%;
-  height: 80%;
-}
-
-.imageTitre{
+.competences{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
-  width: 40%;
+  width: 25vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 5px;
 }
-.Logo{
+.headerCompetences{
+  display: flex;
+  align-items: center;
   width: 100%;
-  max-width: 100px;
-}
-#conteneurLogicielsHobbies img{
-  height: 70px;
-  width: 70px;
-}
-.titreImage{
-  color: var(--couleurNoir);
+  margin-bottom: 2%;
 }
 
-#buttonCV{
-  width: 150px; 
-  min-height: 50px; 
-  background-color: var(--couleurDominante);
-  color: white;
-  font-size: 1rem;
-  align-items: center;
-  border-radius: 10px;
-  margin-top: 50px;
-}
-#buttonCV:hover{
-  background-color: var(--couleurHover);
-  color: var(--couleurNoir);
-  cursor: pointer;
-  text-decoration: underline;
-  border: 1px solid var(--couleurNoir);
-}
+/*========================================*/
+/*             Partie outils              */
+/*========================================*/
 
-
-
-
-#mesProjets{
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 50vh;
-  min-height: 600px;
-}
-
-#carrouselle{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 500px;
-}
-
-#carrouselleVisible{
-  width: 1200px;
-  height: 100%;
-  overflow: hidden;
-}
-
-#carrouselleImage {
-  display: flex;
-  align-items: center;
-  width: 3000px;
-  height: 100%;
-  overflow: hidden;
-  transition: all 0.5s ease-out;
-}
-
-.btnCarrouselle{
-  background-color: transparent;
-  font-size: 30px;
-  border: none;
-  cursor: pointer;
-}
-
-.card {
-  border-radius: 20px;
-  width: 300px;
-  margin-right: 50px;
-  margin-left: 50px;
-  height: 450px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  transform-style: preserve-3d;
-  transition: transform 0.5s; 
-  
-}
-
-.card:hover {
-  transform: rotateY(180deg); 
-}
-
-.front,.back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.front {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--couleurDominante);
-  color: white;
-  min-height: 15%;
-  width: 100%;
-  font-size: 1rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.card img {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  height: 100%;
-  object-fit: fill;
-}
-
-.back {
-  transform: rotateY(180deg); 
-  background-color: var(--couleurDominante); 
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.back .desc {
-  display: flex;
-  font-size: 1rem;
-  margin-top: 5%;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: auto;
-}
-
-#meContacter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.Outils{
   margin-top: 5vh;
-}
-#mesReseaux{
-  display: flex;
-  justify-content: space-between;
-}
-
-.reseaux{
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 25px;
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  border: var(--couleurNoir) 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.reseaux:hover{
-  background-color: var(--couleurHover);
-  cursor: pointer;
-}
-.reseaux a{
-  margin: 0;
-  padding: 0;
-
-}
-.logoContacte{
-  width: 75px;
-  height: 75px;
-}
-
-#footer{
-  margin-top: 50px;
-  width: 100%;
-  background-color: var(--couleurDominante);
-  height: 120px;
   display: flex;
   flex-direction: column;
+  width: 60vw;
 }
-#containeurPolitiqueContact{
+.conteneurOutils{
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-top: 2vh;
 }
-.textFooter{
-  font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
+.outil{
   display: flex;
-}
-.textFooter:hover{
-  color: var(--couleurHover);
-}
-#ligneCopyright{
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-top: 20px;
-  font-size: 1.25rem;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  width: 3vw;
+  margin-top: 1vh;
 }
+.outil img{
+  width: 100%;
+  height: 3vw;
+  object-fit:contain;
+}
+/*========================================*/
+/*     Partie Projets     */
+/*========================================*/
+.MesProjets{
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  min-width: 16vw;
+  height: 40vh;
+  margin: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.5s ease;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img{
+  width: 80%;
+  height: 70%;
+  background-repeat: no-repeat;
+}
+
+.card:hover{
+  transform: scale(1.1); /* Zoom de 20% */
+}
+
+.card p{
+  margin-top: -15px;
+}
+
+/*========================================*/
+/*     Partie Slider                   */
+/*========================================*/
+
+#slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 80vw;
+}
+
+#slide-left, #slide-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  height: 2.5vw;
+  width: 2.5vw;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#slide-left {
+  left: 10px;
+}
+
+#slide-right {
+  right: 10px;
+}
+
+#containeurProjets{
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 5%;
+}
+/*========================================*/
+/*     Partie MeContacter                 */
+/*========================================*/
+
+#contacter{
+  padding: 2vw;
+  width: 58vw;
+  height: 50vh;
+  background-color: #081B30;
+  border-radius: 20px;
+  color: aliceblue;
+  margin-bottom: 5vh;
+}
+#contacter h1{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #DAC9C8;
+  text-shadow: 19px 10px 250px #6BEFDD;
+}
+#contacter img{
+  filter: grayscale(80%);
+  width: 20vw;
+}
+#imgText{
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+#imgText p{
+  margin-left: 2vw;
+  font-size: 1.5rem;
+}
+#containeurBtnContact{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+#containeurBtnContact a{
+  text-decoration: none;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 15px;
+  padding: 5px 75px 5px 75px;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+#containeurBtnContact #btnEmail{
+  background: #DAC9C9;
+  box-shadow: 19px 10px 200px #5c7470;
+  color: #081B30;
+}
+
+
+#containeurBtnContact a:hover{
+  background-color: aliceblue;
+  color: #081B30;
+  transition: all 0.5s ease-in-out;
+}
+

@@ -10,7 +10,9 @@
   body::-webkit-scrollbar {
     display: none;
   }
-  
+/*========================================*/
+/*              Partie body               */
+/*========================================*/
 body{
     margin: 0;
     padding: 0;
@@ -19,7 +21,6 @@ body{
     color: var(--couleurEcriture); 
 }
 #header{
-    position:fixed;
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
@@ -33,7 +34,7 @@ body{
 }
 #header a{
     text-decoration: none;
-    color:var(--couleurEcriture);
+    color:aliceblue;
     transform: all 5s ease-in-out;
 }
 #header a:hover{
@@ -44,3 +45,4 @@ body{
     justify-content: space-between;
     width: 15%;
 }
+
