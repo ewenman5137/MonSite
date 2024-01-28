@@ -24,6 +24,7 @@ body{
 }
 
 #presentation {
+  width: 100%;
   height: 100vh;
   min-height: 850px;
   display: flex;
@@ -65,23 +66,6 @@ body{
   max-width: 500px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-#btnAboutMe{
-  text-align: center;
-  border: 2px solid var(--couleurEcriture);
-  border-radius: 5px;
-  background-color: transparent;
-  color: var(--couleurEcriture);
-  padding: 10px 20px 10px 20px;
-  font-size: 1.5rem;
-  text-decoration: none;
-  margin-top: 2vh;
-}
-#btnAboutMe:hover{
-  background-color: var(--couleurEcriture);
-  color: aliceblue;
-  transition: all 0.5s ease-in-out;
 }
 
 /*========================================*/
@@ -126,7 +110,7 @@ body{
   margin-top: 5vh;
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 70vw;
 }
 .conteneurOutils{
   width: 100%;
@@ -139,8 +123,8 @@ body{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   width: 3vw;
   margin-top: 1vh;
 }
@@ -237,6 +221,7 @@ body{
   padding: 2vw;
   width: 58vw;
   height: 50vh;
+  min-height: 700px;
   background-color: #081B30;
   border-radius: 20px;
   color: aliceblue;

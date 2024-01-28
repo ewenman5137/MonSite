@@ -11,14 +11,12 @@
         <h1 id="titrePresentation">Qui suis-je ?</h1>
         <div id="imageEtDescription">
             <div id="description">
-                <p>Hello world, je m'appelle Ewen BUHOT et je suis actuellement en deuxième année d'études en informatique à Laval. Passionné par les défis techniques et l'innovation, je maîtrise plusieurs langages de programmation, dont Python, C, Java, et aussi HTML, CSS, JS, et PHP.</p>
-                <p>J'ai réalisé plusieurs projets, dont une application JavaFX pour créer des séquenciers de pictogrammes et un jeu de morpion. Mes compétences en leadership et ma détermination à résoudre les problèmes font de moi un candidat idéal pour une carrière dans le management d'équipe ou l'enseignement.</p>
+                <p>Hello world, je m'appelle Ewen BUHOT et je suis actuellement en deuxième année d'études en informatique à Laval. Passionné par les défis techniques et l'innovation.</p>
                 <p>Je vous invite à découvrir mes projets ci-dessous. N'hésitez pas à me contacter pour toute question. Merci de votre visite!</p>
             </div>
             <img id="PP" src="assets/img/PhotoDeProfile.png" alt="PP">
         </div>
     </div>
-    <a id="btnAboutMe" href="AboutMe"><strong>ABOUT ME</strong></a>
     <div id="MesCompetences">
         <h1>Mes Compétences</h1>
         <div id="conteneurCompetences">
@@ -52,13 +50,13 @@
         </div>
     </div>
     <div class="Outils">
-        <h1>Outils en cours d'apprentissage</h1>
+        <h1>Outils en cours d'apprentissage :</h1>
         <div id="enCours" class="conteneurOutils">
             <!-- injection js -->
         </div>
     </div>
     <div class="Outils">
-        <h1>Compétences supplémentaires</h1>
+        <h1>Compétences supplémentaires :</h1>
         <div id="Sup" class="conteneurOutils">
             <!-- injection js -->
         </div>
