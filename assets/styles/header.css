@@ -28,7 +28,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 5vh;
+    min-height: 75px;
+    height: 5vh;
     font-size: 1.2rem;
     z-index: 9999; 
 }
@@ -43,6 +44,6 @@ body{
 #header_gauche{
     display: flex;
     justify-content: space-between;
-    width: 15%;
+    width: 20vw;
 }
 

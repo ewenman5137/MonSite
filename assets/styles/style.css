@@ -68,6 +68,8 @@ body{
   margin-right: 50px;
 }
 
+
+
 /*========================================*/
 /*           Partie Competences           */
 /*========================================*/
@@ -132,6 +134,30 @@ body{
   width: 100%;
   height: 3vw;
   object-fit:contain;
+}
+
+/*========================================*/
+/*     Partie projet                   */
+/*========================================*/
+#containeurProjet{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30vh;
+}
+#textProjet{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #081B30;
+  color: aliceblue;
+}
+#containeurProjet img{
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
 }
 /*========================================*/
 /*     Partie Projets     */
@@ -219,13 +245,11 @@ body{
 
 #contacter{
   padding: 2vw;
-  width: 58vw;
+  width: 96vw;
   height: 50vh;
   min-height: 700px;
   background-color: #081B30;
-  border-radius: 20px;
   color: aliceblue;
-  margin-bottom: 5vh;
 }
 #contacter h1{
   font-family: 'Outfit';
@@ -237,7 +261,7 @@ body{
 }
 #contacter img{
   filter: grayscale(80%);
-  width: 20vw;
+  width: 30vw;
 }
 #imgText{
   display: flex;
@@ -271,8 +295,15 @@ body{
 
 
 #containeurBtnContact a:hover{
+  cursor: pointer;
   background-color: aliceblue;
   color: #081B30;
+  transition: all 0.5s ease-in-out;
+}
+#containeurBtnContact #btnEmail:hover{
+  cursor: pointer;
+  background-color: #081B30;
+  color: aliceblue;
   transition: all 0.5s ease-in-out;
 }
 

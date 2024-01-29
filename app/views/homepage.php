@@ -61,7 +61,17 @@
             <!-- injection js -->
         </div>
     </div>
-    <h1>Mes projets</h1>
+
+
+    <div id="containeurProjet">
+        <div id="textProjet">
+            <h1>Mes Projets</h1>
+            <p>Vous retrouverez les différents projets que j'ai développés durant mes études et sur mon temps personnel.
+                <br>
+                Vous retrouverez tous les projets sur mon GitHub. Chaque projet a sa propre page avec diverses informations : pourquoi, pour qui, et pour quand."</p>
+        </div>
+        <img src="assets/img/Projet/projet.png" alt="">
+    </div>
     <div id="MesProjets">
             <div id="slider-container">
                 <button id="slide-left">&#10094;</button>
@@ -74,8 +84,7 @@
     </div>
 
     <div id="contacter">
-        <h3>Me contacter</h3>
-        <h1>Cherchez-vous un stagière</h1>
+        <h1>Cherchez-vous un stagiaire</h1>
         <div id="imgText">
             <img src="assets/img/main.png" alt="">
             <p>Je suis étudiant en 2ème année de BUT informatique et je suis actuellement à la recherche d’un stage dans les domaines du développement ou du test informatique. Je cherche une entreprise qui pourra me faire découvrir le monde du travail informatique.</p>   
