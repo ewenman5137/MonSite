@@ -154,6 +154,13 @@ body{
   background-color: #081B30;
   color: aliceblue;
 }
+#textProjet h1{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #e5e5e5;
+}
 #containeurProjet img{
   width: 30%;
   height: 100%;
@@ -192,6 +199,7 @@ body{
 
 .card:hover{
   transform: scale(1.1); /* Zoom de 20% */
+  cursor: pointer;
 }
 
 .card p{
@@ -256,7 +264,7 @@ body{
   font-style: normal;
   font-weight: 800;
   font-size: 4rem;
-  color: #DAC9C8;
+  color: #e5e5e5;
   text-shadow: 19px 10px 250px #6BEFDD;
 }
 #contacter img{
@@ -288,7 +296,7 @@ body{
   transition: all 0.5s ease-in-out;
 }
 #containeurBtnContact #btnEmail{
-  background: #DAC9C9;
+  background: #e5e5e5;
   box-shadow: 19px 10px 200px #5c7470;
   color: #081B30;
 }

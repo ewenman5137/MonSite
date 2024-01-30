@@ -9,6 +9,9 @@ if(isset($_GET['page'])){
         case 'home':
             require_once 'app/controllers/homepage.php';
             break;
+        case 'aboutMe':
+            require_once 'app/controllers/aboutMe.php';
+            break;
         default:
             header('Location: home');
             break;
