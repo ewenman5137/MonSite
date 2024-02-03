@@ -47,6 +47,8 @@ document.querySelector('#Sup').innerHTML = generateToolsHtml(competencesSuppleme
 
 
 const projets = [
+  {name: "Bioclipse", desc: "Site des petits producteurs locaux", img: "assets/img/Projet/Bioclipse.jpg", link: "../Bioclipse/"},
+  {name: "Jeux judo", desc: "apprendre le judo via le jeux", img: "assets/img/Projet/judo.jpg", link: "../judo/"},
   {name: "Comparateur algorythmique", desc: "Mon projet de fin de terminale compare cinq algorithmes de tri (tri à bulle, tri par insertion, tri fusion, tri par max et tri par insertion optimisé) à l'aide d'une interface en tkinter", img: "assets/img/Projet/ComparateurAlgo.png"},
   {name: "Mini-jeux de Scrabble", desc: "Le projet Scrabble est un mini-jeu dans lequel l'utilisateur doit, en un temps imparti, trouver le plus de mots possibles avec 7 lettres. L'objectif était de s'entraîner à faire le maximum de points au Scrabble.", img: "assets/img/Projet/Scrabble.png"},
   {name: "Pictoclipse", desc: "Ce projet est une application réalisée dans le cadre de ma première année d'études en BUT. En utilisant JavaFX, j'ai créé une application permettant à l'utilisateur de créer des séquenciers de pictogrammes. Cette application est destinée aux hôpitaux et centres d'éducation.", img: "assets/img/Projet/Pictoclipse.png"},
@@ -57,11 +59,11 @@ const projets = [
 
 function generateProjetsHtml(projets) {
   return projets.map(projet => `
-    <div class="card">
+    <a href="${projet.link}" class="card">
     <h3> ${projet.name} </h3>
       <img src="${projet.img}" alt="${projet.name}">
       <p>${projet.name}</p>
-    </div>
+    </a>
   `).join('');
 }
 
