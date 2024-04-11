@@ -12,7 +12,7 @@
     <div id="header">
         <div id='header_gauche'>
             <a class="btnHeader" href="home#MesCompetences">Mes competences</a>
-            <a class="btnHeader" href="home#MesProjets">Mes projets</a>
+            <a class="btnHeader" href="portfolio">Portfolio</a>
             <a class="btnHeader" href="aboutMe">about me</a>
         </div>
         <a id="titreHeader" class="btnHeader" href="home#presentation">Ewen Buhot</a>
