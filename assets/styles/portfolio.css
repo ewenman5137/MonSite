@@ -5,12 +5,12 @@ body {
     padding: 0;
     background-color: #e8ebf1;
 }
-h1{
-    color: #000;
-}
-h2{
+
+h1, h2 {
     color: #383838;
+    margin-left: 1%;
 }
+
 #competencesContainer {
     display: flex;
     flex-direction: column;
@@ -23,24 +23,48 @@ h2{
     display: flex;
     flex-direction: column;
     padding: 2%;
-    width: 100%;
+    margin-bottom: 20px; /* Ajouté pour mieux séparer les compétences */
     background-color: rgb(238, 238, 238);
+    border-radius: 8px; /* Ajouté pour un meilleur style visuel */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre pour donner de la profondeur */
 }
 
 .progressBarContainer {
-    width: 100%;
-    background-color: #ddd;
-    border: 1px solid #000;
-    height: 30px;
+    display: flex;
+    flex-direction: column; /* Modifié pour disposer les éléments en colonne */
+    align-items: start; /* Aligner les éléments à gauche */
     margin-top: 10px;
+    width: 100%;
+}
+
+.progressBarLabel {
+    font-size: 1em;
+    color: #555; /* Couleur plus douce pour les titres */
+    margin-bottom: 5px; /* Espacement avant la barre */
 }
 
 .progressBar {
-    height: 100%;
-    width: 0%;
-    background-color: red; /* Couleur de départ */
-    line-height: 30px;
-    color: white;
+    background-color: #aaa; /* Couleur de fond pour la barre non remplie */
+    width: 100%; /* Largeur complète pour la barre de fond */
+    height: 20px; /* Hauteur de la barre */
     padding-left: 1%;
-    color: #383838;
+    padding: 0.5%;
+    border-radius: 10px; /* Coins arrondis pour un meilleur style */
+    border: #383838 1px solid; /* Bordure pour délimiter la barre */
+}
+
+.progressBar::after {
+    content: "";
+    background-color: #4CAF50; /* Couleur verte pour la progression */
+    width: attr(data-avancement '%'); /* Utilisation de l'attribut data-avancement pour la largeur */
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.progressDescription {
+    font-size: 0.8em;
+    color: #666; /* Couleur plus claire pour les descriptions */
+    margin-top: 5px; /* Espacement après la barre */
 }
